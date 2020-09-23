@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://meiwt.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "KeepIt"
@@ -40,7 +40,7 @@ disqusShortname = "yourdiscussshortname"
     weight = 4
 
 [params]
-    since = 2012
+    since = 2020
     author = "Fastbyte01"               # Author's name
     subtitle = "A Hugo theme"       # Subtitle
     cdn_url = ""           # Base CDN URL
@@ -61,7 +61,7 @@ disqusShortname = "yourdiscussshortname"
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+    email = "liujian8013lqj@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
@@ -134,10 +134,10 @@ Linkedin = true
 #Tumblr = true
 #VKontakte = true
 #Douban = true
-#Weibo = true
+Weibo = true
 
 # Used only for Seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+copyright = "本作品根据知识共享属性-非商业性4.0国际许可协议进行许可。"
 
 [author]
   name = "Fastbyte01"
@@ -169,10 +169,10 @@ clientSecret = "" # Your client secret
 [params.valine]
   enable = false
   language = 'en'
-  appId = 'your appId'
-  appKey = 'your appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
+  appId = 'Cz7pdNzSMe2LXhdubuknYwGM-gzGzoHsz'
+  appKey = 'olm0IBhty2eTkoReF8z4IMz7'
+  notify = true  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = true # Verification code
   avatar = 'mm'
   placeholder = 'your comments ...'
   visitor = true
